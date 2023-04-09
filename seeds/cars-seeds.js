@@ -46,4 +46,4 @@ Type: "Diesel"
 
 const seedCars = () => Cars.bulkCreate(carsData);
 
-module.exports = seedProducts;
+module.exports = seedCars;
