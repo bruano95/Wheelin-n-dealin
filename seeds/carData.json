@@ -1,43 +1,72 @@
 [
-
   {
-  "Make": "Mercedes",
-  "Model": "cla250",
-  "Year": 2017,
-  "Color": "Silver",
-  "Mileage": 80000,
-  "Sold": 23000,
-  "Image":"silver_gas.jpg",
-  "Type": "Gas"
+    "Make": "Mercedes",
+    "Model": "cla250",
+    "Year": 2017,
+    "Color": "Purple",
+    "Mileage": 80000,
+    "Sold": 24000,
+    "Image": "IMG_9982.JPEG",
+    "Type": "Gas"
   },
   {
-  "Make": "Toyota",
-  "Model": "Prius",
-  "Year": 2010,
-  "Color": "Red",
-  "Mileage": 80000,
-  "Sold": 13000,
-  "Image":"red_toyota.jpg",
-  "Type": "Hybrid"
+    "Make": "Toyota",
+    "Model": "Prius",
+    "Year": 2010,
+    "Color": "White",
+    "Mileage": 80000,
+    "Sold": 13000,
+    "Image": "red_toyota.jpg",
+    "Type": "Hybrid"
   },
   {
-  "Make": "Tesla",
-  "Model": "Model Y",
-  "Year": 2022,
-  "Color": "Blue",
-  "Mileage": 15000,
-  "Sold": 50000,
-  "Image":"blue_tesla.jpg",
-  "Type": "Electric"
+    "Make": "Tesla",
+    "Model": "Model Y",
+    "Year": 2022,
+    "Color": "Blue",
+    "Mileage": 15000,
+    "Sold": 50000,
+    "Image": "Blue MY.jpg",
+    "Type": "Electric"
   },
   {
-  "Make": "GMC",
-  "Model": "Sierra",
-  "Year": 2006,
-  "Color": "Black",
-  "Mileage": 128000,
-  "Sold": 34000,
-  "Image": "black_diesel.jpg",
-  "Type": "Diesel"
+    "Make": "GMC",
+    "Model": "Sierra",
+    "Year": 2006,
+    "Color": "White",
+    "Mileage": 128000,
+    "Sold": 34000,
+    "Image": "gmc white.jpg",
+    "Type": "Diesel"
+  },
+  {
+    "Make": "Subaru",
+    "Model": "STI",
+    "Year": 2005,
+    "Color": "Blue",
+    "Mileage": 80000,
+    "Sold": 23000,
+    "Image": "jimmySTI.jpg",
+    "Type": "Gas"
+  },
+  {
+    "Make": "Lexus",
+    "Model": "SC300",
+    "Year": 1991,
+    "Color": "Purple",
+    "Mileage": 180000,
+    "Sold": 16000,
+    "Image": "IMG_5343.JPEG",
+    "Type": "Gas"
+  },
+  {
+    "Make": "Tesla",
+    "Model": "Model S",
+    "Year": 2019,
+    "Color": "White",
+    "Mileage": 23000,
+    "Sold": 50000,
+    "Image": "MSwhite.jpg",
+    "Type": "Electric"
   }
-  ]
+]

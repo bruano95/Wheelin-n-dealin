@@ -3,6 +3,7 @@
     <!-- Part of Upload.js -->
     <h4>Upload a file...</h4>
     <input type="file" onchange="onFileSelected(event)" id="Image" name="Image" />
+    <!-- Part of Upload.js -->
   </div>
   <div class="col-md-9">
     <div class="row">
@@ -49,7 +50,7 @@
   const h1 = document.getElementsByTagName("h4")[0];
   const uploadButton = document.getElementsByTagName("input")[0];
   // 1) Instantiate Upload.js (at start of app).
-  const upload = Upload({ apiKey: "public_W142hmU27hnWho3BaMXoss8o6cvg" })
+  const upload = Upload({ apiKey: "process.env.APIKEY" })
 
   // <input type="file" onchange="onFileSelected(event)" />
   async function onFileSelected(event) {
