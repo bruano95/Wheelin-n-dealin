@@ -6,25 +6,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>User Registry</title>
   <link rel="stylesheet" href="/css/jass.css">
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <script src="https://js.upload.io/upload-js/v2"></script>
 </head>
 
 <body>
-  <header class="display-flex justify-space-between align-center p-2">
+  <header>
     <h1>
-      User Registry
+      Wheelin' N' Dealin' Successes
     </h1>
-    {{#if logged_in}}
-    <nav>
-      <button class="btn" id="logout">logout</button>
-    </nav>
-    {{/if}}
   </header>
-  <main class="container container-fluid mt-5">
-    {{{ body }}}
+  <nav>
+    <a href="/">Home</a>
+    <a href="/users">Users</a>
+    {{#if logged_in}}
+    <button id="logout" class="btn">Logout</button>
+    {{else}}
+    <a href="/login">Login</a>
+    {{/if}}
+  </nav>
+  <main class="row">
+    <aside class="col-md-3">
+      <h2>Cars successfully sold!</h2>
+    </aside>
+    <div class="gallery col-md-9">
+      {{{body}}}
+    </div>
   </main>
-  <footer>
-      
-  </footer>
 
   {{#if logged_in}}
   <script src="/js/logout.js"></script>
