@@ -1,0 +1,86 @@
+<form class="row" style="height:250px; padding:5px;" method="post">
+  <div class="col-md-3">
+    <!-- Part of Upload.js -->
+    <h4>Upload a file...</h4>
+    <input type="file" onchange="onFileSelected(event)" id="Image" name="Image" />
+  </div>
+  <div class="col-md-9">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Make:</h4><input type="text" id="Make" name="Make" required>
+      </div>
+      <div class="col-md-4">
+        <h4>Model:</h4><input type="text" id="Model" name="Model" required>
+      </div>
+      <div class="col-md-4">
+        <h4>Year:</h4><input type="number" id="Year" name="Year" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Type:</h4>
+        <select id="Type" name="Type" style="width:201.6px; height:23.6px;">
+          <option value="Gas">Gas</option>
+          <option value="Hybrid">Hybrid</option>
+          <option value="Electric">Electric</option>
+          <option value="Diesel">Diesel</option>
+        </select>
+      </div>
+      <div class="col-md-8">
+        <h4>Color:</h4><input type="text" id="Color" name="Color" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Mileage:</h4><input type="number" id="Mileage" name="Mileage" required>
+      </div>
+      <div class="col-md-8">
+        <h4>Sold for:</h4><input type="number" id="Sold" name="Sold" required>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-4"><input class="button" type="submit"></div>
+    </div>
+  </div>
+</form>
+
+<!-- Upload.js script-->
+<script>
+  const h1 = document.getElementsByTagName("h4")[0];
+  const uploadButton = document.getElementsByTagName("input")[0];
+  // 1) Instantiate Upload.js (at start of app).
+  const upload = Upload({ apiKey: "public_W142hmU27hnWho3BaMXoss8o6cvg" })
+
+  // <input type="file" onchange="onFileSelected(event)" />
+  async function onFileSelected(event) {
+    try {
+      // 2) Hide upload button when upload starts.
+      uploadButton.hidden = true;
+
+      // 3) Upload file & show progress.
+      const [file] = event.target.files
+      const { fileUrl } = await upload.uploadFile(file, {
+        onProgress: ({ progress }) =>
+          h1.innerHTML = `File uploading... ${progress}%`
+      })
+
+      // 4) Display uploaded file URL.
+      h1.innerHTML = `
+        File uploaded:
+        <br/>
+        <img src="${fileUrl}" style="height:200px;">`
+
+      const formData = new FormData();
+      formData.append("file", fileUrl);
+      var name = uploadButton.value.split("\\");
+      formData.append("name", name[name.length - 1]);
+      const xhr = new XMLHttpRequest();
+      xhr.open("POST", "/upload");
+      xhr.send(formData);
+
+    } catch (e) {
+      // 5) Display errors.
+      h1.innerHTML = `Please try another file:<br/><br/>${e.message}`
+    }
+  }
+</script>

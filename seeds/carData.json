@@ -1,0 +1,43 @@
+[
+
+  {
+  "Make": "Mercedes",
+  "Model": "cla250",
+  "Year": 2017,
+  "Color": "Silver",
+  "Mileage": 80000,
+  "Sold": 23000,
+  "Image":"silver_gas.jpg",
+  "Type": "Gas"
+  },
+  {
+  "Make": "Toyota",
+  "Model": "Prius",
+  "Year": 2010,
+  "Color": "Red",
+  "Mileage": 80000,
+  "Sold": 13000,
+  "Image":"red_toyota.jpg",
+  "Type": "Hybrid"
+  },
+  {
+  "Make": "Tesla",
+  "Model": "Model Y",
+  "Year": 2022,
+  "Color": "Blue",
+  "Mileage": 15000,
+  "Sold": 50000,
+  "Image":"blue_tesla.jpg",
+  "Type": "Electric"
+  },
+  {
+  "Make": "GMC",
+  "Model": "Sierra",
+  "Year": 2006,
+  "Color": "Black",
+  "Mileage": 128000,
+  "Sold": 34000,
+  "Image": "black_diesel.jpg",
+  "Type": "Diesel"
+  }
+  ]
