@@ -3,7 +3,7 @@ const { User } = require('../models');
 const { Cars } = require('../models');
 const withAuth = require('../utils/auth');
 const multer = require("multer");
-const upload = multer({ dest: "/images/" });
+const upload = multer({ dest: "./tmp/images/" });
 const fs = require("fs");
 const https = require("https");
 
