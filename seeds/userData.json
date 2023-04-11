@@ -1,27 +1,22 @@
 [
   {
-    "name": "Sal",
-    "email": "sal@hotmail.com",
+    "name": "Jimmy",
+    "email": "jiimmyyin85@live.com",
     "password": "password12345"
   },
   {
-    "name": "Lernantino",
-    "email": "lernantino@gmail.com",
+    "name": "Brandon",
+    "email": "bruano@uw.edu",
     "password": "password12345"
   },
   {
-    "name": "Amiko",
-    "email": "amiko2k20@aol.com",
+    "name": "Kobby",
+    "email": "DKSolomon8135@gmail.com",
     "password": "password12345"
   },
   {
-    "name": "Jordan",
-    "email": "jordan99@msn.com",
-    "password": "password12345"
-  },
-  {
-    "name": "Blake",
-    "email": "the_blake@yahoo.com",
+    "name": "Lemseh",
+    "email": "lemsehcarbuf@gmail.com",
     "password": "password12345"
   }
 ]
