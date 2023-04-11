@@ -6,7 +6,7 @@ module.exports = {
     if (randomNum > 0.7) {
       book = "🚙";
     } else if (randomNum > 0.4) {
-      book = "🏎️";
+      book = "🚖";
     }
 
     return `<span for="img" aria-label="book">${book}</span>`;
