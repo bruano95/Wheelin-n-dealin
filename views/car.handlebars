@@ -40,6 +40,11 @@
       </div>
     </div>
     <div class="row">
+      <div class="col-md-9" >
+        <h4>Description:</h4><input type="text" id="Description" name="Description" style="width:222px; height:222px;">
+      </div>
+    </div>
+    <div class="row">
       <div class="col-md-4"><input class="button" type="submit"></div>
     </div>
   </div>
@@ -50,8 +55,8 @@
   const h1 = document.getElementsByTagName("h4")[0];
   const uploadButton = document.getElementsByTagName("input")[0];
   // 1) Instantiate Upload.js (at start of app).
-  const upload = Upload({ apiKey: "public_W142hmU27hnWho3BaMXoss8o6cvg" })
-
+  
+  const upload = Upload({ apiKey: "process.env.APIKEY" })
   // <input type="file" onchange="onFileSelected(event)" />
   async function onFileSelected(event) {
     try {
