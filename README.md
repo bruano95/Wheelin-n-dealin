@@ -2,12 +2,8 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+In this application we will have a way for the user to organized the type of vehicles sold such as gas, hybrid, electric wiith there respective details and prices they were sold for.  This will let seller know what vehicles are also trending in the current market to further maixmize car flip profits!.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
 ## Table of Contents (Optional)
 
@@ -19,29 +15,64 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Some installation packages is needed to run this application in command-line.
+
+Please be sure to have the following installed prior to running this application:
+
+-Install node version v16.18.0 by following instructions here:
+
+https://coding-boot-camp.github.io/full-stack/nodejs/how-to-install-nodejs
+
+-Install the required npm packages and run the server by typing the following below:
+
+npm i
+
+login too your: mysql by mysql -u root -p
+
+source db/schema.sql;
+
+use blog_db
+
+Quit sql
+
+npm run seed
+
+node server.js
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Please see Heroku Deployed Page for Whats Up Blog here:
+
+<a href="link placeholder/">Wheelin'N Dealin'</a>
 
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 EX:
 ![alt text](assets/images/screenshot.png)
 
-Please view the video demo link below to see how to use the application:
-
-
     EX:
 ![alt text](./lib/logogen.jpg)
 
 
 
+
+## New technology used
+- Upload.js https://upload.io/upload-js
+
+- Multer - https://expressjs.com/en/resources/middleware/multer.html
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
+Node.js - https://nodejs.org/en/
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
+EXPRESS - https://expressjs.com/en/starter/installing.html
 
-If you followed tutorials, include links to those here as well.
+StackOverflow- https://stackoverflow.com/
+
+## Collaborators:
+<a href="https://github.com/xKranze">Jimmy Yin</a> 
+
+<a href="https://github.com/bruano95">Brandon Ruano</a> 
+
+<a href="https://github.com/DKsolomon">David (Kobby) Soloman</a> 
+
+<a href="https://github.com/lemsehcar">Lemseh Carothers-Abdullah</a>
