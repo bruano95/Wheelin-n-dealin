@@ -1,3 +1,7 @@
 node_modules
-.env
+package-lock.json
+.vscode
 .DS_Store
+.env
+.env.Example
+.env.EXAMPLE
