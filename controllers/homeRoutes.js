@@ -64,7 +64,9 @@ router.post('/api', async (req, res) => {
     });
 
   try {
-    const carsData = await Cars.findAll();
+    const carsData = await Cars.findAll({
+    order: [['id', 'DESC']]
+    });
     console.log(carsData);
     const cars = carsData.map((project) => project.get({ plain: true }));
 
