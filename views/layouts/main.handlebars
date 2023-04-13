@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Registry</title>
+  <title>Wheelin-n-Dealin</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" type="text/css" href="/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,12 +16,13 @@
 <body>
   <header>
     <h1>
-      Wheelin' N' Dealin'
+      Wheelin' n' Dealin'
     </h1>
   </header>
   <nav>
     <a href="/">Home</a>
     <a href="/users">Users</a>
+    <a href="/about">About</a>
     {{#if logged_in}}
     <button id="logout" class="btn">Logout</button>
     {{else}}
@@ -29,10 +30,7 @@
     {{/if}}
   </nav>
   <main class="row">
-    <aside class="col-md-3">
-      <h2>Cars successfully sold!</h2>
-    </aside>
-    <div class="gallery col-md-9">
+    <div class="gallery col-md-25">
       {{{body}}}
     </div>
   </main>

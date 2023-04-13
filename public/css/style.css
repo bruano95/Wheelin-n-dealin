@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   justify-content: flex-start;
   background-color: var(--quatrinary);
+  text-align: center;
 }
 
 a {
@@ -39,22 +40,16 @@ main {
   height:100%;
 }
 
-aside {
-  background-color: var(--tertiary);
-  padding: 80px;
-  text-align: left;
-  color: var(--light);
-}
-
 nav {
-  display: flex;
+  display: inline-block;
   background-color: var(--secondary);
 }
 
 nav a {
   color: var(--light);
-  padding: 14px 20px;
+  padding: 2px 20px;
   text-decoration: none;
+  line-height: 35px;
   text-align: center;
 }
 
@@ -129,16 +124,19 @@ img {
   color: var(--dark);
 }
 
-.login-card {
-  margin: 0 0 20px 0;
+.login-card,
+.sign-up-card {
+  margin-bottom: 45px;
+  display: inline-flex;
   flex: 0 0 50%;
-  max-width: 50%;
-  padding: 5px;
+  max-width: 70%;
+  width: 50%;
+  padding: 25px;
   border: 3px solid var(--dark);
   border-radius: var(--border-radius);
   border-style: double;
   border-width: thick;
-  background-color: #577a7c;
+  background-color: #12436e;
   color: var(--light);
 }
 
