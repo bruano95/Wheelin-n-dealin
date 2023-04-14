@@ -174,3 +174,21 @@ img {
   align-content: flex-start;
   align-items: center;
 }
+
+.team-about{
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.github-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.column-about {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+
