@@ -7,7 +7,8 @@
     "Mileage": 80000,
     "Sold": 24000,
     "Image": "IMG_9982.JPEG",
-    "Type": "Gas"
+    "Type": "Gas",
+    "Description": "Sold 1/2/2023 bought for 15k and fixed up and wrapped vehicle in purple and flipped sold for 24k making 6k profit after wrap cost!!! "
   },
   {
     "Make": "Toyota",
@@ -17,7 +18,8 @@
     "Mileage": 80000,
     "Sold": 13000,
     "Image": "red_toyota.jpg",
-    "Type": "Hybrid"
+    "Type": "Hybrid",
+    "Description": "Sold 2/2/2023 bought for 5k and fixed body quarter panels and repainted vehicle red and flipped sold for 13k making 2k profit after repais!! Yeah buddy!"
   },
   {
     "Make": "Tesla",
@@ -27,7 +29,8 @@
     "Mileage": 15000,
     "Sold": 50000,
     "Image": "Blue MY.jpg",
-    "Type": "Electric"
+    "Type": "Electric",
+    "Description": "Sold 2/26/2023 bought for 46k and instantly resold sold for 50000 making a 4k profit EZ FLIP!!! "
   },
   {
     "Make": "GMC",
@@ -37,7 +40,8 @@
     "Mileage": 128000,
     "Sold": 34000,
     "Image": "gmc white.jpg",
-    "Type": "Diesel"
+    "Type": "Diesel",
+    "Description": "Sold 3/2/2023 bought for 30k and easy flip for 34000 4k profit!!! "
   },
   {
     "Make": "Subaru",
@@ -47,7 +51,8 @@
     "Mileage": 80000,
     "Sold": 23000,
     "Image": "jimmySTI.jpg",
-    "Type": "Gas"
+    "Type": "Gas",
+    "Description": "Sold 3/22/2023 bought for 18k and retuned with bigger turbo and sold for 23k making 3k profit after parts cost!!! "
   },
   {
     "Make": "Lexus",
@@ -57,7 +62,8 @@
     "Mileage": 180000,
     "Sold": 16000,
     "Image": "IMG_5343.JPEG",
-    "Type": "Gas"
+    "Type": "Gas",
+    "Description": "Sold 3/29/2023 bought for 5k and fixed up and painted vehicle in purple added new windsheild and flipped sold for 16k making 7k profit after paint and windshield cost!!! "
   },
   {
     "Make": "Tesla",
@@ -67,6 +73,7 @@
     "Mileage": 23000,
     "Sold": 50000,
     "Image": "MSwhite.jpg",
-    "Type": "Electric"
+    "Type": "Electric",
+    "Description": "Sold 4/6/2023 bought for 40k and added wheels and lowering links and sold for 50000 making a whopping 17k profitafter parts cost"
   }
 ]
