@@ -1,9 +1,9 @@
 :root {
-  --primary: #59bc87;
+  --primary: #134074;
   --secondary: #87b7c9;
   --tertiary: #9ab078;
-  --quatrinary: #6c6b67;
-  --light: #e3e4e3;
+  --quatrinary: #5a6988;
+  --light: #E0E1DD;
   --dark: #182c23;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
@@ -68,9 +68,9 @@ nav a:hover {
   margin: 2px 1px;
   transition-duration: 0.4s;
   cursor: pointer;
-  border: 2px solid #4CAF50;
-  background-color: #4CAF50;
-  color: white;
+  border: 2px solid #134074;
+  background-color: #87b7c9;
+  color: #E0E1DD;
 }
 
 .button:hover {
@@ -80,6 +80,7 @@ nav a:hover {
 
 .gallery {
   background-color: #fff;
+  color: #E0E1DD;
   padding: 50px;
   justify-content: center;
   align-items: center;
@@ -165,6 +166,12 @@ img {
   padding-bottom: 30px;
   padding-right: 100px;
   padding-left: 100px;
+  
+}
+
+.gallery{
+  background-color: #8DA9C4;
+  font-style: var(--light);
 }
 
 /* LAYOUT */
