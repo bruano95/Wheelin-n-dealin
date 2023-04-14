@@ -7,6 +7,33 @@ const upload = multer({ dest: "./tmp/images/" });
 const fs = require("fs");
 const https = require("https");
 
+router.get('/about', withAuth, async (req, res) => {
+  try {
+    const carsData = await Cars.findAll();
+
+    const cars = carsData.map((project) => project.get({ plain: true }));
+
+    res.render('about', {
+      cars,
+      logged_in: req.session.logged_in,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
+router.get('/api', withAuth, async (req, res) => {
+  try {
+    const car = {};
+    res.render('car', {
+      car,
+      logged_in: req.session.logged_in,
+    });
+  } catch (err) {
+    res.status(500).json(err);
+  }
+});
+
 router.get('/', withAuth, async (req, res) => {
   try {
     const carsData = await Cars.findAll();
