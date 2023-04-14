@@ -174,14 +174,6 @@ img {
   font-style: var(--light);
 }
 
-/* LAYOUT */
-.container {
-  display: flex;
-  flex-flow: column wrap;
-  align-content: flex-start;
-  align-items: center;
-}
-
 .team-about{
   display: inline-flex;
   justify-content: space-around;
@@ -195,7 +187,28 @@ img {
 
 .column-about {
   display: flex;
-  text-align: center;
   flex-direction: column;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.aboutme-sub {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.aboutme-des,
+.aboutme-descrip {
+  font-size: 20px;
+}
+
+.aboutme-descrip {
+  text-decoration: underline;
+  margin-bottom: 40px;
+}
+
+.aboutme-des {
+  margin: auto;
+  width: 80%;
 }
 
