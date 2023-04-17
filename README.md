@@ -41,18 +41,12 @@ node server.js
 
 ## Usage
 
-Please see Heroku Deployed Page for Whats Up Blog here:
+Please see Heroku Deployed Page for Wheelin' N Dealin' here:
 
-<a href="link placeholder/">Wheelin'N Dealin'</a>
+<a href="https://aqueous-inlet-27718.herokuapp.com/login/">Wheelin'N Dealin'</a>
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
-EX:
-![alt text](assets/images/screenshot.png)
-
-    EX:
-![alt text](./lib/logogen.jpg)
-
+![alt text](./public/images/WNDsnipp.jpg)
 
 
 
