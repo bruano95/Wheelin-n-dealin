@@ -35,6 +35,11 @@ header {
   color: var(--light);
 }
 
+header img {
+  width: 250px;
+  height: 180px;
+}
+
 main {
   display: grid;
   height:100%;
